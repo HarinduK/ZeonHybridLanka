@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zeon Hybrid Lanka</string>
+    <string name="qr">Log In</string>
+    <string name="auction">Live Auction</string>
+    <string name="track">Track Now</string>
+    <string name="welcome1">"Track your booked vehicle"</string>
+    <string name="welcome2">Developed By ZeonIT</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+</resources>

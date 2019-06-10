@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Home"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/userName"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/txtcircle"
+            android:textColorHint="@color/colourText"
+            android:hint="User Name"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/colourText"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/userName"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/txtcircle"
+            android:hint="Password"
+            android:textColorHint="@color/colourText"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colourText"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle"
+            android:text="Log In"
+            android:textSize="15dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
